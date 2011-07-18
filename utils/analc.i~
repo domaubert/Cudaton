@@ -1,0 +1,2 @@
+
+ll=exec("ls -d ~/Project/cudaton_cosmoromain/runs2out/teyssier/c1*");

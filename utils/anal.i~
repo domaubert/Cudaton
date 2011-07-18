@@ -1,0 +1,10 @@
+
+istop=180;
+aglob=xglob=tglob=[];
+for(i=0;i<istop;i++){
+  s=swrite(format="runs2/out/snap_c00.10.%05d",i);
+  readg(s,x,t,a);
+  grow,aglob,a;
+  grow,xglob,avg(x);
+  grow,tglob,avg(t);
+ }

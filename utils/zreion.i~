@@ -1,7 +1,0 @@
-
-z=array(0.,128,128,128);
-
-for(i=0;i<=80;i++){
-  s=readsnap(swrite(format="out/snap.%05d",i));
- }
-
